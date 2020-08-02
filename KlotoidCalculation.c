@@ -26,7 +26,7 @@ int main()
 	printf("A değerini giriniz: ");
 	scanf("%lf", &A);
 	R = pow(A, 2) / L;
-	printf("R değeri: \n", R);
+	printf("R değeri: %f\n", R);
 
 		// Bilinmeyenlerin hesaplanması;
 	printf("\n\t=== Hesap sonuçları! === \n");
