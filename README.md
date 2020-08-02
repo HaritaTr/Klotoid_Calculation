@@ -18,7 +18,7 @@ farklı durumlarda kullanılmaktadır. Klotoid elemanlarını hesaplama program�
 **Kullanım Rehberi;**
 =====================
 
-**Çalıştırıldığında; comboBoxtan;**
+**Çalıştırıldığında;**
 
 + A ve L için Klotoid elemanlarının hesaplanması
 + A ve R için Klotoid elemanlarının hesaplanması
