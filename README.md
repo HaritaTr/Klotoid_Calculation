@@ -1,2 +1,1 @@
-# Klotoid_Calculation
-Klotoid Elemanlarını Hesaplama
+# Klotoid Elemanlarını Hesaplama
