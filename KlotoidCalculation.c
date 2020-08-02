@@ -53,7 +53,9 @@ int main()
 	X = L - ((pow(L, 5)) / (40 * pow(A, 4))) + ((pow(L, 9)) / (3456 * pow(A, 8)));
 	Y = ((pow(L, 3)) / (6 * pow(A, 2))) - ((pow(L, 7)) / (336 * (pow(A, 6)))) + ((pow(L, 11)) / (42240 * pow(A, 10)));
 	x = X / A;
-	y = Y / A; 
+	y = Y / A;
+	printf("x değeri: %f\n", x);
+	printf("y değeri: %f\n", y); 
 	/* Daire merkezinin koordinatları
 	Ym = Y + (R * (cos((L / (2 * R)))));
 	Xm = X - (R * (sin((L / (2 * R)))));
@@ -63,11 +65,14 @@ int main()
 	Xm = X - (R * (sin((L / (2 * R)))));
 	xm = Xm / A;
 	ym = Ym / A;
+	printf("xm değeri: %f\n", xm);
+	printf("ym değeri: %f\n", ym);
 	/* Rakordman payı
 	Rak = Ym - R;
 	rak = Rak / A; (birim klotoid için) */
 	Rak = Ym - R;
-	rak = Rak / A; 
+	rak = Rak / A;
+	printf("rak değeri: %f\n", rak);
 	/* Kısa ve uzun teğet
 	Tk = Y / (sin((L / (2 * R))));
 	Tu = X - Y * 1 / (tan((L / (2 * R))));
@@ -77,14 +82,18 @@ int main()
 	Tu = X - Y * 1 / (tan((L / (2 * R))));
 	tk = Tk / A;
 	tu = Tu / A;
+	printf("tk değeri: %f\n", tk);
+	printf("tu değeri: %f\n", tu);
 	/* Kutupsal koordinatlar
 	S = Sqrt((X^2) + (Y^2));
 	s = S / A; (birim klotoid için) */
 	S = pow((pow(X, 2) + pow(Y, 2)), 0.5);
 	s = S / A;
+	printf("s değeri: %f\n", s);
 	/* Açı değeri
 	sigma = (atan(Y / X)) * (200 / (PI)); */
-	sigma = (atan(Y / X)) * (200 / (PI));	
+	sigma = (atan(Y / X)) * (200 / (PI));
+	printf("sigma değeri: %f\n", sigma);	
 
 	return 0;
 }
